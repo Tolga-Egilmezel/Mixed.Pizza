@@ -1,0 +1,19 @@
+baseurl: ""
+url: "http://mixed.pizza"
+
+# Build settings
+markdown: kramdown
+theme: mixedpizza
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+compress_html:
+  clippings: [div, p, ul, td, h1, h2]
+  comments: ["<!-- ", " -->"]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
